@@ -8,7 +8,7 @@ class Vehicle {
     double basePrice;
 
     Vehicle(String brand, String model, int year, double basePrice) {
-        this.brand = brand;
+        this.brnd = brand;
         this.model = model;
         this.year = year;
         this.basePrice = basePrice;
@@ -140,4 +140,5 @@ public class VehicleDetails {
 
         sc.close();
     }
+
 }
